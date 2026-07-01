@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shikha Shukla | Data Analyst & AI Insights Specialist | Freelancing</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@0.400.0/dist/umd/lucide.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-slate-50 text-slate-900 scroll-smooth selection:bg-blue-500 selection:text-white dark:bg-slate-950 dark:text-slate-100">
+
+    <nav class="fixed w-full bg-white/80 dark:bg-slate-900/80 backdrop-blur-md z-50 border-b border-slate-100 dark:border-slate-800 px-4 md:px-12 py-4 flex justify-between items-center">
+        <div class="flex items-center gap-3">
+            <div class="w-9 h-9 bg-slate-900 dark:bg-blue-600 text-white rounded-lg flex items-center justify-center font-bold text-sm">SS</div>
+            <span class="font-bold tracking-tight text-slate-800 dark:text-slate-200 text-base">Shikha Shukla</span>
+        </div>
+        
+        <div class="hidden xl:flex items-center space-x-6 text-xs font-semibold text-slate-500 dark:text-slate-400">
+            <a href="#home" class="text-slate-900 dark:text-white border-b-2 border-slate-900 dark:border-blue-500 pb-1">Home</a>
+            <a href="#about" class="hover:text-slate-900 dark:hover:text-white transition-colors">About</a>
+            <a href="#education" class="hover:text-slate-900 dark:hover:text-white transition-colors">Education</a>
+            <a href="#skills" class="hover:text-slate-900 dark:hover:text-white transition-colors">Skills</a>
+            <a href="#projects" class="hover:text-slate-900 dark:hover:text-white transition-colors">Projects</a>
+            <a href="#certifications" class="hover:text-slate-900 dark:hover:text-white transition-colors">Certifications</a>
+            <a href="#achievements" class="hover:text-slate-900 dark:hover:text-white transition-colors">Achievements</a>
+            <a href="#resume" class="hover:text-slate-900 dark:hover:text-white transition-colors">Resume</a>
+            <a href="#contact" class="hover:text-slate-900 dark:hover:text-white transition-colors">Contact</a>
+        </div>
+
+        <div class="flex items-center gap-4">
+            <button id="theme-toggle" class="p-2 text-slate-600 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white transition-colors rounded-lg bg-slate-100 dark:bg-slate-800">
+                <i data-lucide="moon" id="theme-icon-dark" class="w-4 h-4"></i>
+                <i data-lucide="sun" id="theme-icon-light" class="w-4 h-4 hidden"></i>
+            </button>
+            <button class="xl:hidden text-slate-700 dark:text-slate-300" id="menu-btn"><i data-lucide="menu" class="w-5 h-5"></i></button>
+        </div>
+    </nav>
+
+    <div id="mobile-menu" class="hidden fixed inset-0 z-40 bg-white dark:bg-slate-900 pt-24 px-6 flex flex-col space-y-5 text-base font-semibold shadow-xl">
+        <a href="#home" class="mobile-link text-slate-900 dark:text-white">Home</a>
+        <a href="#about" class="mobile-link text-slate-500 dark:text-slate-400">About</a>
+        <a href="#education" class="mobile-link text-slate-500 dark:text-slate-400">Education</a>
+        <a href="#skills" class="mobile-link text-slate-500 dark:text-slate-400">Skills</a>
+        <a href="#projects" class="mobile-link text-slate-500 dark:text-slate-400">Projects</a>
+        <a href="#certifications" class="mobile-link text-slate-500 dark:text-slate-400">Certifications</a>
+        <a href="#achievements" class="mobile-link text-slate-500 dark:text-slate-400">Achievements</a>
+        <a href="#resume" class="mobile-link text-slate-500 dark:text-slate-400">Resume</a>
+        <a href="#contact" class="mobile-link text-slate-500 dark:text-slate-400">Contact</a>
+    </div>
+
+    <header id="home" class="min-h-screen hero-glow tech-grid-bg flex items-center px-6 md:px-16 pt-20 relative">
+        <div class="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+            <div class="lg:col-span-7 space-y-6">
+                <div class="inline-flex items-center gap-2 border border-slate-200/80 dark:border-slate-800 bg-white/90 dark:bg-slate-900/90 px-4 py-1.5 rounded-full text-[11px] font-bold tracking-wider text-slate-500 dark:text-slate-400 uppercase">
+                    <span class="w-2 h-2 bg-emerald-500 rounded-full animate-pulse"></span> Open to jobs · Freelance Projects · Data Roles
+                </div>
+                <div class="space-y-1">
+                    <span class="text-xs font-mono font-bold text-blue-600 dark:text-blue-400 uppercase tracking-widest block">Hello, I'm</span>
+                    <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight text-slate-900 dark:text-white">Shikha Shukla.</h1>
+                </div>
+                <div class="text-2xl md:text-3xl font-bold text-slate-800 dark:text-slate-200 flex items-center">
+                    <span class="text-slate-400 mr-2">&gt;</span>
+                    <span class="typing-cursor text-blue-600 dark:text-blue-400">Data Analyst + AI Insights</span>
+                </div>
+                <p class="max-w-xl text-slate-500 dark:text-slate-400 text-sm md:text-base leading-relaxed">
+                    Computer Science graduate specializing in statistical data pipelines, predictive AI automation, advanced dashboard building, and high-performance algorithmic analysis.
+                </p>
+                <div class="flex flex-wrap gap-3 pt-2">
+                    <a href="#projects" class="bg-blue-600 dark:bg-blue-500 text-white text-xs font-bold px-5 py-3.5 rounded-xl shadow-md hover:bg-blue-700 transition-all flex items-center gap-2"><i data-lucide="layout-grid" class="w-4 h-4"></i> View 10 Featured Projects</a>
+                    <a href="#resume" class="bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300 text-xs font-bold px-5 py-3.5 rounded-xl hover:bg-slate-50 dark:hover:bg-slate-700 transition-all flex items-center gap-2"><i data-lucide="download" class="w-4 h-4"></i> View Resume (8.5 CGPA)</a>
+                </div>
+            </div>
+            <div class="lg:col-span-5 flex justify-center items-center relative">
+                <div class="w-72 h-72 md:w-80 md:h-80 bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 rounded-full flex items-center justify-center shadow-2xl relative">
+                    <div class="absolute -top-3 right-2 bg-white dark:bg-slate-800 px-3 py-1.5 border border-slate-100 dark:border-slate-700 shadow-sm rounded-xl text-[11px] font-bold"><span class="text-slate-400">CORE:</span> Analytics + AI</div>
+                    <div class="absolute -bottom-3 left-2 bg-white dark:bg-slate-800 px-3 py-1.5 border border-slate-100 dark:border-slate-700 shadow-sm rounded-xl text-[11px] font-bold"><span class="text-slate-400">ALGO:</span> Aspiring DSA</div>
+                    <div class="w-56 h-56 md:w-64 md:h-64 rounded-full border-4 border-dashed border-slate-100 dark:border-slate-800 flex items-center justify-center animate-[spin_180s_linear_infinite]"></div>
+                    <div class="absolute inset-0 flex flex-col justify-center items-center">
+                        <i data-lucide="brain-circuit" class="w-16 h-16 text-blue-600 dark:text-blue-400 mb-2"></i>
+                        <span class="text-3xl font-black text-slate-800 dark:text-slate-200 tracking-tighter">SS</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="py-24 px-6 md:px-16 max-w-7xl mx-auto border-t border-slate-100 dark:border-slate-900">
+        <span class="text-xs font-mono font-bold text-slate-400 tracking-widest uppercase block mb-2">01 —— About Me</span>
+        <h2 class="text-3xl md:text-4xl font-extrabold text-slate-900 dark:text-white tracking-tight mb-8 max-w-3xl">Bridging algorithmic logic with business intelligence to automate decision pipelines.</h2>
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+            <div class="lg:col-span-7 text-slate-500 dark:text-slate-400 space-y-4 text-sm md:text-base leading-relaxed">
+                <p>I am <strong class="text-slate-900 dark:text-white font-semibold">Shikha Shukla</strong>, a B.Tech Computer Science graduate from <strong class="text-slate-900 dark:text-white font-semibold">Kanpur Institute of Technology</strong>. With an academic grounding built on data models and algorithmic structural design, I specialize in engineering advanced end-to-end data pipelines.</p>
+                <p>My work centers on writing optimized relational queries, executing exploratory statistical processing in Python, and generating high-impact dashboards. By incorporating intelligent data engineering and AI automation, I streamline the route from complex, unstructured datasets to business insights.</p>
+                <p>As an <strong class="text-blue-600 dark:text-blue-400 font-semibold">aspiring DSA specialist</strong>, I treat data cleaning and modeling as structural algorithmic problems, ensuring analytics execution remains highly performant and scalable.</p>
+            </div>
+            <div class="lg:col-span-5 grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div class="bg-white dark:bg-slate-900 p-5 rounded-2xl border border-slate-100 dark:border-slate-800 shadow-sm flex items-start gap-4">
+                    <div class="p-2 bg-indigo-50 dark:bg-indigo-950 text-indigo-600 dark:text-indigo-400 rounded-xl"><i data-lucide="map-pin" class="w-4 h-4"></i></div>
+                    <div><span class="text-[10px] uppercase font-bold text-slate-400 block">Location</span><span class="text-xs font-semibold text-slate-800 dark:text-slate-200">India · Remote Enabled</span></div>
+                </div>
+                <div class="bg-white dark:bg-slate-900 p-5 rounded-2xl border border-slate-100 dark:border-slate-800 shadow-sm flex items-start gap-4">
+                    <div class="p-2 bg-blue-50 dark:bg-blue-950 text-blue-600 dark:text-blue-400 rounded-xl"><i data-lucide="graduation-cap" class="w-4 h-4"></i></div>
+                    <div><span class="text-[10px] uppercase font-bold text-slate-400 block">Education & Performance</span><span class="text-xs font-semibold text-slate-800 dark:text-slate-200">B.Tech CS · 8.5 CGPA</span></div>
+                </div>
+                <div class="bg-white dark:bg-slate-900 p-5 rounded-2xl border border-slate-100 dark:border-slate-800 shadow-sm flex items-start gap-4">
+                    <div class="p-2 bg-purple-50 dark:bg-purple-950 text-purple-600 dark:text-purple-400 rounded-xl"><i data-lucide="cpu" class="w-4 h-4"></i></div>
+                    <div><span class="text-[10px] uppercase font-bold text-slate-400 block">Focus Vectors</span><span class="text-xs font-semibold text-slate-800 dark:text-slate-200">Data Analyst + AI Engineering</span></div>
+                </div>
+                <div class="bg-white dark:bg-slate-900 p-5 rounded-2xl border border-slate-100 dark:border-slate-800 shadow-sm flex items-start gap-4">
+                    <div class="p-2 bg-amber-50 dark:bg-amber-950 text-amber-600 dark:text-amber-400 rounded-xl"><i data-lucide="code-2" class="w-4 h-4"></i></div>
+                    <div><span class="text-[10px] uppercase font-bold text-slate-400 block">Problem Solving</span><span class="text-xs font-semibold text-slate-800 dark:text-slate-200">Aspiring DSA Track</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="py-24 bg-white dark:bg-slate-900 px-6 md:px-16 border-y border-slate-100 dark:border-slate-800">
+        <div class="max-w-7xl mx-auto">
+            <span class="text-xs font-mono font-bold text-slate-400 tracking-widest uppercase block mb-2">02 —— Education</span>
+            <h2 class="text-3xl font-extrabold text-slate-900 dark:text-white mb-4">Academic Architecture in Computer Science.</h2>
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+                <div class="lg:col-span-5 bg-slate-50 dark:bg-slate-950 p-6 md:p-8 rounded-2xl border border-slate-200/60 dark:border-slate-800 relative">
+                    <div class="absolute left-0 top-0 bottom-0 w-1 bg-blue-600 rounded-l-2xl"></div>
+                    <span class="text-xs font-mono font-bold text-slate-400">2022 — 2026</span>
+                    <h3 class="text-xl font-bold text-slate-900 dark:text-white mt-2 mb-1">Bachelor of Technology</h3>
+                    <p class="text-sm font-semibold text-blue-600 dark:text-blue-400">Computer Science & Engineering</p>
+                    <p class="text-xs text-slate-500 dark:text-slate-400 mb-4">Kanpur Institute of Technology, Kanpur</p>
+                    <div class="flex gap-2"><span class="bg-blue-50 dark:bg-blue-950 text-blue-700 dark:text-blue-400 text-[10px] font-bold px-3 py-1 rounded-full uppercase">8.5 CGPA Verified</span></div>
+                </div>
+                <div class="lg:col-span-7 bg-slate-50 dark:bg-slate-950 p-6 md:p-8 rounded-2xl border border-slate-200/60 dark:border-slate-800 space-y-6">
+                    <div>
+                        <span class="text-xs font-mono font-bold text-slate-400 uppercase tracking-wider block mb-3 flex items-center gap-2"><i data-lucide="book-open" class="w-4 h-4"></i> Core Engineering Frameworks</span>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 text-xs text-slate-700 dark:text-slate-300 px-3 py-1.5 rounded-lg">Data Structures & Algorithms (DSA)</span>
+                            <span class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 text-xs text-slate-700 dark:text-slate-300 px-3 py-1.5 rounded-lg">Database Management Systems (DBMS)</span>
+                            <span class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 text-xs text-slate-700 dark:text-slate-300 px-3 py-1.5 rounded-lg">Advanced SQL Query Structure</span>
+                            <span class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 text-xs text-slate-700 dark:text-slate-300 px-3 py-1.5 rounded-lg">Python Engineering</span>
+                            <span class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 text-xs text-slate-700 dark:text-slate-300 px-3 py-1.5 rounded-lg">Artificial Intelligence & ML Models</span>
+                            <span class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 text-xs text-slate-700 dark:text-slate-300 px-3 py-1.5 rounded-lg">Statistical Mathematics</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="py-24 px-6 md:px-16 max-w-7xl mx-auto">
+        <span class="text-xs font-mono font-bold text-slate-400 tracking-widest uppercase block mb-2">03 —— Competencies</span>
+        <h2 class="text-3xl font-extrabold text-slate-900 dark:text-white mb-2">Technical Core Matrix</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
+            <div class="bg-white dark:bg-slate-900 p-6 rounded-2xl border border-slate-100 dark:border-slate-800 shadow-sm space-y-4">
+                <h3 class="font-bold text-slate-900 dark:text-white text-sm flex items-center gap-2 border-b border-slate-100 dark:border-slate-800 pb-3"><i data-lucide="bar-chart-3" class="w-4 h-4 text-blue-600"></i> Analytics & BI</h3>
+                <div class="space-y-3">
+                    <div><div class="flex justify-between text-xs font-semibold mb-1"><span>SQL Queries (Joins, Window Functions)</span><span class="text-slate-400">88%</span></div><div class="w-full bg-slate-100 dark:bg-slate-800 h-1 rounded-full"><div class="bg-blue-600 h-1 rounded-full" style="width: 88%"></div></div></div>
+                    <div><div class="flex justify-between text-xs font-semibold mb-1"><span>Python Parsing (Pandas, NumPy)</span><span class="text-slate-400">85%</span></div><div class="w-full bg-slate-100 dark:bg-slate-800 h-1 rounded-full"><div class="bg-blue-600 h-1 rounded-full" style="width: 85%"></div></div></div>
+                    <div><div class="flex justify-between text-xs font-semibold mb-1"><span>Power BI Dashboards (DAX Engine)</span><span class="text-slate-400">80%</span></div><div class="w-full bg-slate-100 dark:bg-slate-800 h-1 rounded-full"><div class="bg-blue-600 h-1 rounded-full" style="width: 80%"></div></div></div>
+                    <div><div class="flex justify-between text-xs font-semibold mb-1"><span>Advanced Excel Modeling</span><span class="text-slate-400">85%</span></div><div class="w-full bg-slate-100 dark:bg-slate-800 h-1 rounded-full"><div class="bg-blue-600 h-1 rounded-full" style="width: 85%"></div></div></div>
+                    <div><div class="flex justify-between text-xs font-semibold mb-1"><span>Data Cleaning & Pipeline Management</span><span class="text-slate-400">86%</span></div><div class="w-full bg-slate-100 dark:bg-slate-800 h-1 rounded-full"><div class="bg-blue-600 h-1 rounded-full" style="width: 86%"></div></div></div>
+                    <div><div class="flex justify-between text-xs font-semibold mb-1"><span>Tableau Architecture</span><span class="text-slate-400">70%</span></div><div class="w-full bg-slate-100 dark:bg-slate-800 h-1 rounded-full"><div class="bg-blue-600 h-1 rounded-full" style="width: 70%"></div></div></div>
+                </div>
+            </div>
+            <div class="bg-white dark:bg-slate-900 p-6 rounded-2xl border border-slate-100 dark:border-slate-800 shadow-sm space-y-4">
+                <h3 class="font-bold text-slate-900 dark:text-white text-sm flex items-center gap-2 border-b border-slate-100 dark:border-slate-800 pb-3"><i data-lucide="brain" class="w-4 h-4 text-purple-600"></i> DSA & Artificial Intelligence</h3>
+                <div class="space-y-3">
+                    <div><div class="flex justify-between text-xs font-semibold mb-1"><span>Data Structures (Arrays, Lists, Hashing)</span><span class="text-slate-400">78%</span></div><div class="w-full bg-slate-100 dark:bg-slate-800 h-1 rounded-full"><div class="bg-purple-600 h-1 rounded-full" style="width: 78%"></div></div></div>
+                    <div><div class="flex justify-between text-xs font-semibold mb-1"><span>Algorithm Analysis & Recursion</span><span class="text-slate-400">72%</span></div><div class="w-full bg-slate-100 dark:bg-slate-800 h-1 rounded-full"><div class="bg-purple-600 h-1 rounded-full" style="width: 72%"></div></div></div>
+                    <div><div class="flex justify-between text-xs font-semibold mb-1"><span>Predictive Modeling & Scikit-Learn</span><span class="text-slate-400">68%</span></div><div class="w-full bg-slate-100 dark:bg-slate-800 h-1 rounded-full"><div class="bg-purple-600 h-1 rounded-full" style="width: 68%"></div></div></div>
+                    <div><div class="flex justify-between text-xs font-semibold mb-1"><span>AI Prompt Engineering for Analytics</span><span class="text-slate-400">85%</span></div><div class="w-full bg-slate-100 dark:bg-slate-800 h-1 rounded-full"><div class="bg-purple-600 h-1 rounded-full" style="width: 85%"></div></div></div>
+                    <div><div class="flex justify-between text-xs font-semibold mb-1"><span>DBMS Storage Optimization</span><span class="text-slate-400">80%</span></div><div class="w-full bg-slate-100 dark:bg-slate-800 h-1 rounded-full"><div class="bg-purple-600 h-1 rounded-full" style="width: 80%"></div></div></div>
+                </div>
+            </div>
+            <div class="bg-white dark:bg-slate-900 p-6 rounded-2xl border border-slate-100 dark:border-slate-800 shadow-sm space-y-4">
+                <h3 class="font-bold text-slate-900 dark:text-white text-sm flex items-center gap-2 border-b border-slate-100 dark:border-slate-800 pb-3"><i data-lucide="git-merge" class="w-4 h-4 text-emerald-600"></i> Systems & Environments</h3>
+                <div class="space-y-3">
+                    <div><div class="flex justify-between text-xs font-semibold mb-1"><span>MySQL Workbench / Servers</span><span class="text-slate-400">82%</span></div><div class="w-full bg-slate-100 dark:bg-slate-800 h-1 rounded-full"><div class="bg-emerald-600 h-1 rounded-full" style="width: 82%"></div></div></div>
+                    <div><div class="flex justify-between text-xs font-semibold mb-1"><span>Jupyter Enterprise Notebooks</span><span class="text-slate-400">85%</span></div><div class="w-full bg-slate-100 dark:bg-slate-800 h-1 rounded-full"><div class="bg-emerald-600 h-1 rounded-full" style="width: 85%"></div></div></div>
+                    <div><div class="flex justify-between text-xs font-semibold mb-1"><span>Git Version Control & GitHub</span><span class="text-slate-400">78%</span></div><div class="w-full bg-slate-100 dark:bg-slate-800 h-1 rounded-full"><div class="bg-emerald-600 h-1 rounded-full" style="width: 78%"></div></div></div>
+                    <div><div class="flex justify-between text-xs font-semibold mb-1"><span>HTML5 / CSS3 Layouts</span><span class="text-slate-400">88%</span></div><div class="w-full bg-slate-100 dark:bg-slate-800 h-1 rounded-full"><div class="bg-emerald-600 h-1 rounded-full" style="width: 88%"></div></div></div>
+                    <div><div class="flex justify-between text-xs font-semibold mb-1"><span>JavaScript Integration</span><span class="text-slate-400">70%</span></div><div class="w-full bg-slate-100 dark:bg-slate-800 h-1 rounded-full"><div class="bg-emerald-600 h-1 rounded-full" style="width: 70%"></div></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-24 bg-slate-900 text-white px-6 md:px-16 scroll-mt-10">
+        <div class="max-w-7xl mx-auto">
+            <span class="text-xs font-mono font-bold text-slate-500 tracking-widest uppercase block mb-2">04 —— Case Studies</span>
+            <h2 class="text-3xl font-extrabold tracking-tight mb-2 text-white">10 Selected Quantitative Engineering Projects</h2>
+            <p class="text-slate-400 text-sm mb-12 max-w-xl">Production configurations tracking live enterprise data anomalies and automated dashboard insights.</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-slate-800/60 rounded-2xl border border-slate-700/50 p-6 flex flex-col justify-between">
+                    <div>
+                        <span class="text-[9px] font-bold font-mono tracking-wider text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded uppercase">Excel</span>
+                        <h3 class="text-base font-bold mt-2 mb-1">Sales Analytics Engine</h3>
+                        <p class="text-slate-400 text-xs mb-3">Interactive platform modeling multi-regional transaction fields into optimized tracking dashboards.</p>
+                        <p class="text-[11px] text-slate-300 bg-slate-900/40 p-2.5 rounded border border-slate-700/30"><strong>Insight outcome:</strong> Isolated a 14% leakage vector inside localized shipping logistics.</p>
+                    </div>
+                </div>
+
+                <div class="bg-slate-800/60 rounded-2xl border border-slate-700/50 p-6 flex flex-col justify-between">
+                    <div>
+                        <span class="text-[9px] font-bold font-mono tracking-wider text-blue-400 bg-blue-500/10 px-2 py-0.5 rounded uppercase">Python EDA</span>
+                        <h3 class="text-base font-bold mt-2 mb-1">Netflix Media Trend Analysis</h3>
+                        <p class="text-slate-400 text-xs mb-3">Executed full exploratory data processing on global tracking matrices to index viewing parameter shifts.</p>
+                        <p class="text-[11px] text-slate-300 bg-slate-900/40 p-2.5 rounded border border-slate-700/30"><strong>Insight outcome:</strong> Identified user retention growth vectors favoring regional content distributions.</p>
+                    </div>
+                </div>
+
+                <div class="bg-slate-800/60 rounded-2xl border border-slate-700/50 p-6 flex flex-col justify-between">
+                    <div>
+                        <span class="text-[9px] font-bold font-mono tracking-wider text-amber-400 bg-amber-500/10 px-2 py-0.5 rounded uppercase">Power BI</span>
+                        <h3 class="text-base font-bold mt-2 mb-1">Corporate Attrition Workspace</h3>
+                        <p class="text-slate-400 text-xs mb-3">Configured advanced data layers measuring compensation metrics against corporate retention loops.</p>
+                        <p class="text-[11px] text-slate-300 bg-slate-900/40 p-2.5 rounded border border-slate-700/30"><strong>Insight outcome:</strong> Isolated systemic 18% attrition metrics inside mid-tier operations fields.</p>
+                    </div>
+                </div>
+
+                <div class="bg-slate-800/60 rounded-2xl border border-slate-700/50 p-6 flex flex-col justify-between">
+                    <div>
+                        <span class="text-[9px] font-bold font-mono tracking-wider text-purple-400 bg-purple-500/10 px-2 py-0.5 rounded uppercase">SQL Database</span>
+                        <h3 class="text-base font-bold mt-2 mb-1">Customer RFM SQL Query Matrix</h3>
+                        <p class="text-slate-400 text-xs mb-3">Constructed optimized multi-join scripts tracking consumer lifetime value across database backends.</p>
+                        <p class="text-[11px] text-slate-300 bg-slate-900/40 p-2.5 rounded border border-slate-700/30"><strong>System performance:</strong> Reduced query execution runtime bottlenecks by 32%.</p>
+                    </div>
+                </div>
+
+                <div class="bg-slate-800/60 rounded-2xl border border-slate-700/50 p-6 flex flex-col justify-between">
+                    <div>
+                        <span class="text-[9px] font-bold font-mono tracking-wider text-purple-400 bg-purple-500/10 px-2 py-0.5 rounded uppercase">AI Modeling</span>
+                        <h3 class="text-base font-bold mt-2 mb-1">Churn Estimation Predictive Engine</h3>
+                        <p class="text-slate-400 text-xs mb-3">Engineered clean Scikit-Learn data modeling systems tracking predictive consumer retention lines.</p>
+                        <p class="text-[11px] text-slate-300 bg-slate-900/40 p-2.5 rounded border border-slate-700/30"><strong>AI metric:</strong> Attained an 84% accuracy pattern mapping future behavioral shifts.</p>
+                    </div>
+                </div>
+
+                <div class="bg-slate-800/60 rounded-2xl border border-slate-700/50 p-6 flex flex-col justify-between">
+                    <div>
+                        <span class="text-[9px] font-bold font-mono tracking-wider text-blue-400 bg-blue-500/10 px-2 py-0.5 rounded uppercase">Statistical Python</span>
+                        <h3 class="text-base font-bold mt-2 mb-1">Student Performance Correlation</h3>
+                        <p class="text-slate-400 text-xs mb-3">Modeled relational matrices tracking variables between academic scores and attendance behavior parameters.</p>
+                        <p class="text-[11px] text-slate-300 bg-slate-900/40 p-2.5 rounded border border-slate-700/30"><strong>Insight outcome:</strong> Charted specific thresholds directly correlating to grades.</p>
+                    </div>
+                </div>
+
+                <div class="bg-slate-800/60 rounded-2xl border border-slate-700/50 p-6 flex flex-col justify-between">
+                    <div>
+                        <span class="text-[9px] font-bold font-mono tracking-wider text-indigo-400 bg-indigo-500/10 px-2 py-0.5 rounded uppercase">Tableau Visuals</span>
+                        <h3 class="text-base font-bold mt-2 mb-1">Supply Chain Delay Monitor</h3>
+                        <p class="text-slate-400 text-xs mb-3">Built operational tracking visual boards for global distribution pipeline anomalies.</p>
+                        <p class="text-[11px] text-slate-300 bg-slate-900/40 p-2.5 rounded border border-slate-700/30"><strong>Insight outcome:</strong> Pinpointed regional freight processing backlogs.</p>
+                    </div>
+                </div>
+
+                <div class="bg-slate-800/60 rounded-2xl border border-slate-700/50 p-6 flex flex-col justify-between">
+                    <div>
+                        <span class="text-[9px] font-bold font-mono tracking-wider text-blue-400 bg-blue-500/10 px-2 py-0.5 rounded uppercase">Python Automation</span>
+                        <h3 class="text-base font-bold mt-2 mb-1">Real Estate Trend Auto-Parser</h3>
+                        <p class="text-slate-400 text-xs mb-3">Configured clean automated data extraction layers formatting real estate market trends.</p>
+                        <p class="text-[11px] text-slate-300 bg-slate-900/40 p-2.5 rounded border border-slate-700/30"><strong>System performance:</strong> Structured unstructured web elements into database rows.</p>
+                    </div>
+                </div>
+
+                <div class="bg-slate-800/60 rounded-2xl border border-slate-700/50 p-6 flex flex-col justify-between">
+                    <div>
+                        <span class="text-[9px] font-bold font-mono tracking-wider text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded uppercase">SQL + BI</span>
+                        <h3 class="text-base font-bold mt-2 mb-1">Global Medical Trend Mapper</h3>
+                        <p class="text-slate-400 text-xs mb-3">Aggregated multi-table healthcare records into an informative geo-spatial visual pipeline.</p>
+                        <p class="text-[11px] text-slate-300 bg-slate-900/40 p-2.5 rounded border border-slate-700/30"><strong>Insight outcome:</strong> Visualized rolling averages across macro demographic locations.</p>
+                    </div>
+                </div>
+
+                <div class="bg-slate-800/60 rounded-2xl border border-slate-700/50 p-6 flex flex-col justify-between">
+                    <div>
+                        <span class="text-[9px] font-bold font-mono tracking-wider text-purple-400 bg-purple-500/10 px-2 py-0.5 rounded uppercase">AI Clustering</span>
+                        <h3 class="text-base font-bold mt-2 mb-1">Financial Portfolio Segmentation</h3>
+                        <p class="text-slate-400 text-xs mb-3">Applied unsupervised ML clustering models onto financial records to isolate risk groupings.</p>
+                        <p class="text-[11px] text-slate-300 bg-slate-900/40 p-2.5 rounded border border-slate-700/30"><strong>AI metric:</strong> Grouped corporate portfolios into explicit risk clusters.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications" class="py-24 px-6 md:px-16 max-w-7xl mx-auto scroll-mt-10">
+        <span class="text-xs font-mono font-bold text-slate-400 tracking-widest uppercase block mb-2">05 —— Certifications</span>
+        <h2 class="text-3xl font-extrabold text-slate-900 dark:text-white mb-2">Continuous validation in data architecture.</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="bg-white dark:bg-slate-900 p-6 rounded-2xl border border-slate-100 dark:border-slate-800 shadow-sm flex flex-col justify-between">
+                <div>
+                    <div class="w-8 h-8 rounded-lg bg-blue-50 dark:bg-blue-950 text-blue-600 dark:text-blue-400 flex items-center justify-center mb-4"><i data-lucide="award" class="w-4 h-4"></i></div>
+                    <h3 class="font-bold text-slate-900 dark:text-white text-sm mb-1">Google Advanced Data Analytics</h3>
+                    <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed">Statistical predictive modeling, operational data cleaning, and high-end visual design frameworks.</p>
+                </div>
+                <div class="flex justify-between items-center text-[10px] font-mono text-slate-400 mt-4"><span>VERIFIED</span><span>2024</span></div>
+            </div>
+            <div class="bg-white dark:bg-slate-900 p-6 rounded-2xl border border-slate-100 dark:border-slate-800 shadow-sm flex flex-col justify-between">
+                <div>
+                    <div class="w-8 h-8 rounded-lg bg-indigo-50 dark:bg-indigo-950 text-indigo-600 dark:text-indigo-400 flex items-center justify-center mb-4"><i data-lucide="award" class="w-4 h-4"></i></div>
+                    <h3 class="font-bold text-slate-900 dark:text-white text-sm mb-1">SQL for Deep Data Analytics</h3>
+                    <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed">Multi-table join parameters, nested sub-queries, stored procedures, and index database optimization.</p>
+                </div>
+                <div class="flex justify-between items-center text-[10px] font-mono text-slate-400 mt-4"><span>ONLINE REPO</span><span>2024</span></div>
+            </div>
+            <div class="bg-white dark:bg-slate-900 p-6 rounded-2xl border border-slate-100 dark:border-slate-800 shadow-sm flex flex-col justify-between">
+                <div>
+                    <div class="w-8 h-8 rounded-lg bg-purple-50 dark:bg-purple-950 text-purple-600 dark:text-purple-400 flex items-center justify-center mb-4"><i data-lucide="award" class="w-4 h-4"></i></div>
+                    <h3 class="font-bold text-slate-900 dark:text-white text-sm mb-1">Python Statistical Environments</h3>
+                    <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed">Matrix computing parameters, data mapping distributions, and regression loop configurations.</p>
+                </div>
+                <div class="flex justify-between items-center text-[10px] font-mono text-slate-400 mt-4"><span>ACADEMIC VERIFIED</span><span>2024</span></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="achievements" class="py-24 bg-white dark:bg-slate-900 px-6 md:px-16 border-t border-slate-100 dark:border-slate-800 scroll-mt-10">
+        <div class="max-w-7xl mx-auto">
+            <span class="text-xs font-mono font-bold text-slate-400 tracking-widest uppercase block mb-2">06 —— Milestones</span>
+            <h2 class="text-3xl font-extrabold text-slate-900 dark:text-white mb-2">Academic & Foundational Milestones.</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="bg-slate-50 dark:bg-slate-950 p-5 rounded-2xl border border-slate-100 dark:border-slate-800 flex items-start gap-4">
+                    <div class="p-2.5 bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-blue-400 rounded-xl"><i data-lucide="award" class="w-4 h-4"></i></div>
+                    <p class="text-xs font-semibold text-slate-700 dark:text-slate-300 leading-relaxed">Graduating with a Bachelor's in Computer Science (B.Tech) in 2026 from Kanpur Institute of Technology with a strong <strong>8.5 CGPA</strong>.</p>
+                </div>
+                <div class="bg-slate-50 dark:bg-slate-950 p-5 rounded-2xl border border-slate-100 dark:border-slate-800 flex items-start gap-4">
+                    <div class="p-2.5 bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-blue-400 rounded-xl"><i data-lucide="code" class="w-4 h-4"></i></div>
+                    <p class="text-xs font-semibold text-slate-700 dark:text-slate-300 leading-relaxed">Active and continuous focus on **Data Structures and Algorithms (DSA)** in Python to guarantee performant data operations.</p>
+                </div>
+                <div class="bg-slate-50 dark:bg-slate-950 p-5 rounded-2xl border border-slate-100 dark:border-slate-800 flex items-start gap-4">
+                    <div class="p-2.5 bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-blue-400 rounded-xl"><i data-lucide="database" class="w-4 h-4"></i></div>
+                    <p class="text-xs font-semibold text-slate-700 dark:text-slate-300 leading-relaxed">Engineered **10 multi-tier analytical data case studies** processing advanced transactional datasets.</p>
+                </div>
+                <div class="bg-slate-50 dark:bg-slate-950 p-5 rounded-2xl border border-slate-100 dark:border-slate-800 flex items-start gap-4">
+                    <div class="p-2.5 bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-blue-400 rounded-xl"><i data-lucide="cpu" class="w-4 h-4"></i></div>
+                    <p class="text-xs font-semibold text-slate-700 dark:text-slate-300 leading-relaxed">Integrated predictive model algorithms and AI prompt tooling workflows directly into statistical analysis routines.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="resume" class="py-24 px-6 md:px-16 max-w-7xl mx-auto scroll-mt-10">
+        <span class="text-xs font-mono font-bold text-slate-400 tracking-widest uppercase block mb-2">07 —— Resume</span>
+        <h2 class="text-3xl font-extrabold text-slate-900 dark:text-white mb-2">Comprehensive Performance Ledger</h2>
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+            <div class="lg:col-span-5 bg-white dark:bg-slate-900 p-6 md:p-8 rounded-3xl border border-slate-100 dark:border-slate-800 shadow-sm space-y-6">
+                <div class="flex items-center gap-4">
+                    <div class="p-3 bg-blue-50 dark:bg-blue-950 text-blue-600 dark:text-blue-400 rounded-2xl"><i data-lucide="file-spreadsheet" class="w-6 h-6"></i></div>
+                    <div>
+                        <span class="text-[10px] font-bold font-mono text-slate-400 block uppercase">PDF File Link</span>
+                        <h4 class="text-sm font-bold text-slate-800 dark:text-slate-200">Shikha-Shukla-Data-Analyst.pdf</h4>
+                    </div>
+                </div>
+                <div class="space-y-3 text-xs border-t border-slate-100 dark:border-slate-800 pt-4">
+                    <div><span class="font-bold text-slate-400 block uppercase text-[9px]">Education:</span><span class="text-slate-700 dark:text-slate-300">B.Tech CS · KIT Kanpur · <strong>8.5 CGPA</strong></span></div>
+                    <div><span class="font-bold text-slate-400 block uppercase text-[9px]">Analytics Stack:</span><span class="text-slate-700 dark:text-slate-300">Python (Pandas) · SQL · Excel · Power BI · Tableau</span></div>
+                    <div><span class="font-bold text-slate-400 block uppercase text-[9px]">AI Core:</span><span class="text-slate-700 dark:text-slate-300">Scikit-Learn · Unsupervised Clustering · Intelligent Feature Mapping</span></div>
+                </div>
+                <div class="grid grid-cols-2 gap-3 pt-2">
+                    <a href="#" class="bg-blue-600 hover:bg-blue-700 text-white text-center font-bold text-xs py-3 rounded-xl transition-all shadow-md flex items-center justify-center gap-1.5"><i data-lucide="download" class="w-3.5 h-3.5"></i> Download</a>
+                    <a href="#" class="bg-slate-50 dark:bg-slate-800 hover:bg-slate-100 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-300 text-center font-bold text-xs py-3 rounded-xl border border-slate-200 dark:border-slate-700 transition-all flex items-center justify-center gap-1.5"><i data-lucide="eye" class="w-3.5 h-3.5"></i> View Online</a>
+                </div>
+            </div>
+            <div class="lg:col-span-7 bg-white dark:bg-slate-900 p-6 md:p-8 rounded-3xl border border-slate-100 dark:border-slate-800 shadow-sm space-y-4">
+                <span class="text-[10px] font-mono font-bold text-blue-600 uppercase tracking-widest block">Commercial Advantages</span>
+                <h3 class="text-lg font-bold text-slate-900 dark:text-white">Why prioritize this profile for hiring:</h3>
+                <ul class="space-y-3.5 text-xs md:text-sm text-slate-500 dark:text-slate-400 list-disc list-inside">
+                    <li class="leading-relaxed"><strong>Algorithmic Efficiency:</strong> My continuous focus on Data Structures ensures that data ingestion scripts and database schemas stay fast and scalable.</li>
+                    <li class="leading-relaxed"><strong>Verifiable Execution:</strong> Supported by 10 production-style projects showing everything from exploratory analysis to executive dashboard metrics.</li>
+                    <li class="leading-relaxed"><strong>AI-Assisted Delivery:</strong> I leverage machine learning pipelines and advanced prompt patterns to parse data faster than traditional manual processes.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-24 bg-slate-50 dark:bg-slate-950 px-6 md:px-16 border-t border-slate-100 dark:border-slate-900 scroll-mt-10">
+        <div class="max-w-7xl mx-auto">
+            <span class="text-xs font-mono font-bold text-slate-400 tracking-widest uppercase block mb-2">08 —— Contact Terminal</span>
+            <h2 class="text-3xl font-extrabold text-slate-900 dark:text-white mb-2">Let's build something together.</h2>
+            <p class="text-slate-500 dark:text-slate-400 text-sm mb-12 max-w-xl">Available for long-term institutional data analyst positions, contract consulting, and immediately outsourced freelancing sprints.</p>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+                <div class="lg:col-span-5 space-y-4">
+                    <div class="bg-white dark:bg-slate-900 p-4 rounded-xl border border-slate-100 dark:border-slate-800 flex items-center gap-4">
+                        <div class="p-2.5 bg-blue-50 dark:bg-blue-950 text-blue-600 dark:text-blue-400 rounded-lg"><i data-lucide="mail" class="w-4 h-4"></i></div>
+                        <div><span class="text-[9px] uppercase font-bold text-slate-400 tracking-wider block">Direct Inbox Email</span><a href="mailto:shikhashukla3018@gmail.com" class="text-xs font-bold text-slate-800 dark:text-slate-200 hover:underline">shikhashukla3018@gmail.com</a></div>
+                    </div>
+                    <div class="bg-white dark:bg-slate-900 p-4 rounded-xl border border-slate-100 dark:border-slate-800 flex items-center gap-4">
+                        <div class="p-2.5 bg-blue-50 dark:bg-blue-950 text-blue-600 dark:text-blue-400 rounded-lg"><i data-lucide="linkedin" class="w-4 h-4"></i></div>
+                        <div><span class="text-[9px] uppercase font-bold text-slate-400 tracking-wider block">Professional Network</span><a href="https://linkedin.com/in/shikhashukla18" class="text-xs font-bold text-slate-800 dark:text-slate-200 hover:underline" target="_blank" rel="noopener noreferrer">linkedin.com/in/shikhashukla18</a></div>
+                    </div>
+                    <div class="bg-white dark:bg-slate-900 p-4 rounded-xl border border-slate-100 dark:border-slate-800 flex items-center gap-4">
+                        <div class="p-2.5 bg-blue-50 dark:bg-blue-950 text-blue-600 dark:text-blue-400 rounded-lg"><i data-lucide="github" class="w-4 h-4"></i></div>
+                        <div><span class="text-[9px] uppercase font-bold text-slate-400 tracking-wider block">Repository Archives</span><a href="https://github.com/shikhashukla18-byte" class="text-xs font-bold text-slate-800 dark:text-slate-200 hover:underline" target="_blank" rel="noopener noreferrer">github.com/shikhashukla18-byte</a></div>
+                    </div>
+                </div>
+
+                <form action="https://api.web3forms.com/submit" method="POST" class="lg:col-span-7 bg-white dark:bg-slate-900 p-6 md:p-8 rounded-2xl border border-slate-100 dark:border-slate-800 shadow-sm space-y-4">
+                    <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+                    <input type="hidden" name="subject" value="New Portfolio Message from Recruiter/Client">
+                    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+                    <div>
+                        <label class="block text-[10px] uppercase font-bold tracking-wider text-slate-400 mb-1.5" for="form-name">Full Name</label>
+                        <input class="w-full px-4 py-3 rounded-xl bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 text-xs text-slate-900 dark:text-slate-100 focus:outline-none focus:border-blue-500 dark:focus:border-blue-400 focus:bg-white dark:focus:bg-slate-900 transition-colors" type="text" name="name" id="form-name" required placeholder="Your full name">
+                    </div>
+                    <div>
+                        <label class="block text-[10px] uppercase font-bold tracking-wider text-slate-400 mb-1.5" for="form-email">Email Address</label>
+                        <input class="w-full px-4 py-3 rounded-xl bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 text-xs text-slate-900 dark:text-slate-100 focus:outline-none focus:border-blue-500 dark:focus:border-blue-400 focus:bg-white dark:focus:bg-slate-900 transition-colors" type="type" name="email" id="form-email" required placeholder="you@company.com">
+                    </div>
+                    <div>
+                        <label class="block text-[10px] uppercase font-bold tracking-wider text-slate-400 mb-1.5" for="form-msg">Project Requirements / Role Scope</label>
+                        <textarea class="w-full px-4 py-3 rounded-xl bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 text-xs text-slate-900 dark:text-slate-100 focus:outline-none focus:border-blue-500 dark:focus:border-blue-400 focus:bg-white dark:focus:bg-slate-900 transition-colors" name="message" id="form-msg" rows="4" required placeholder="Tell me about the project parameters, timeline, or position requirements..."></textarea>
+                    </div>
+                    <button class="w-full bg-blue-900 dark:bg-blue-600 hover:bg-blue-800 dark:hover:bg-blue-500 text-white font-bold py-3.5 rounded-xl text-xs uppercase tracking-wider transition-all shadow-md flex items-center justify-center gap-2" type="submit"><i data-lucide="send" class="w-3.5 h-3.5"></i> Dispatch to Inbox</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-8 bg-white dark:bg-slate-900 text-center border-t border-slate-100 dark:border-slate-800 px-6">
+        <p class="text-[11px] text-slate-400">&copy; 2026 Shikha Shukla. Optimized for technical evaluation and recruiter selection.</p>
+    </footer>
+
+    <script href="script.js"></script>
+</body>
+</html>
